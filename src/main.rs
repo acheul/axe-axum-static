@@ -23,7 +23,7 @@ pub struct Cli {
   #[arg(long="addr", short='a', default_value="::1")]
   pub addr: String,
 
-  #[arg(long="port", short='s', default_value="3000")]
+  #[arg(long="port", short='p', default_value="3000")]
   pub port: u16,
 
   #[arg(long="static-dir", short='d', default_value="./assets")]
